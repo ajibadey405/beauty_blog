@@ -1,0 +1,69 @@
+@media screen and (max-width: 425px) {
+    #wrapper{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    nav{
+        flex-direction: column;
+        row-gap: 0.5rem;
+        justify-content: center;
+        align-items: center;
+        
+    }
+}
+@media screen and (max-width: 645px) {
+    nav{
+        flex-direction: column;
+        row-gap: 0.5rem;
+        justify-content: center;
+        align-items: center;
+        
+    }
+}
+@media screen and (max-width: 704px) {
+    html{
+        font-size: 11px; 
+    }
+}
+@media screen and (max-width: 768px) {
+    #hero{
+        flex-direction: column-reverse;
+    }
+    #right-container{
+    width: 600px;
+    max-width: 100%;
+    height: 702px;
+    }
+    #categories-section{
+        flex-direction: column;
+        gap: 3rem;
+    }
+    #skincare-haircare_wrapper{
+        flex-direction: column;
+        width: 70%;
+        margin: auto;
+
+    }
+    #skin-care{
+        width: 70%;
+        gap: 11rem;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 3rem;
+    }
+    #trending-section__container{
+        flex-direction: column;
+
+    }
+    #trending-card__container{
+        flex-direction: column;
+    }
+   
+
+
+}
+@media screen and (max-width: 1052px) {
+    html{
+        font-size: 10px; 
+    }
+}
